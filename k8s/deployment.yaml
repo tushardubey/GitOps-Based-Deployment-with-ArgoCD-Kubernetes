@@ -16,6 +16,8 @@ spec:
     spec:
       containers:
         - name: notes-app
-          image: tushardubey/notes-app
+          image: tushardubey/notes-app:latest
+          imagePullPolicy: Always
+
           ports:
             - containerPort: 3000
