@@ -124,7 +124,7 @@ function NotesApp() {
 
     return (
         <div className="notes-app">
-            <h1>My Notes</h1>
+            <h1>My Notess</h1>
             <button onClick={handleAddNoteClick} className="add-note-button">
                 Add Note
             </button>
