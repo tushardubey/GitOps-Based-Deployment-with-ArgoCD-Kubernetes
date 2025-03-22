@@ -38,14 +38,12 @@ function NotesApp() {
     const handleSaveNote = () => {
         if (newNoteTitle.trim() !== '') {
             if (selectedNote) {
-                // Editing existing note
                 setNotes(notes.map(note =>
                     note.id === selectedNote.id
                         ? { ...note, title: newNoteTitle, text: newNoteText, tags: newNoteTags.map((tag) => tag.value), color: newNoteColor }
                         : note
                 ));
             } else {
-                // Adding new note
                 setNotes([
                     ...notes,
                     {
@@ -114,17 +112,17 @@ function NotesApp() {
     };
 
     const colorOptions = [
-        '#e0b0ff', // Light Purple
-        '#a0c4ff', // Light Blue
-        '#90ee90', // Light Green
-        '#ffffe0', // Light Yellow
-        '#ffdab9', // Light Orange
-        '#f08080', // Light Red
+        '#e0b0ff',
+        '#a0c4ff',
+        '#90ee90',
+        '#ffffe0',
+        '#ffdab9',
+        '#f08080',
     ];
 
     return (
         <div className="notes-app">
-            <h1>My Notess</h1>
+            <h1>MY NOTESS</h1>
             <button onClick={handleAddNoteClick} className="add-note-button">
                 Add Notes
             </button>
