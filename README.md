@@ -46,7 +46,19 @@ This project implements a **GitOps-based CI/CD pipeline** using **Jenkins, Docke
 ## Future Enhancements
 - **Use Helm charts** for better Kubernetes configuration
 - **Integrate monitoring tools** like Prometheus & Grafana
-- **Implement RBAC policies** for security
+- **Implement RBAC policies** for security-
+
+## SnapShots
+- Jenkins Pipe Stages
+
+![image](https://github.com/user-attachments/assets/c99e219c-3ee0-47cf-bbcf-3ec24bc6de57)
+
+- ArgoCD
+![image](https://github.com/user-attachments/assets/c0f84fa6-b071-40e1-942d-39932ddfa37c)
+![image](https://github.com/user-attachments/assets/711b3edd-5304-4e3d-8ee9-909e2e04a2e7)
+
+- UI
+
 
 ---
 This project ensures seamless, automated deployments using best DevOps practices! 🚀
