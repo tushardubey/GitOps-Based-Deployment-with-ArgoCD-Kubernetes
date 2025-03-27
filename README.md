@@ -58,7 +58,8 @@ This project implements a **GitOps-based CI/CD pipeline** using **Jenkins, Docke
 ![image](https://github.com/user-attachments/assets/711b3edd-5304-4e3d-8ee9-909e2e04a2e7)
 
 - UI
-
+![image](https://github.com/user-attachments/assets/fd8c2ddd-af14-4a51-a841-4814e1a6d41a)
+![image](https://github.com/user-attachments/assets/a2989272-16fc-4a3a-8a60-f943679b69ce)
 
 ---
 This project ensures seamless, automated deployments using best DevOps practices! 🚀
